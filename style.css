@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #23272b;
+  color: #eaeaea;
+  margin: 0;
+  min-height: 100vh;
+}
+#top-bar {
+  background: #181a1b;
+  padding: 16px 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #2e3136;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+#nickname-display {
+  font-weight: bold;
+  color: #f6c700;
+  margin-left: 10px;
+}
+button {
+  background: #262b32;
+  color: #f6c700;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 1em;
+  margin: 0 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #393e46;
+}
+.home-section {
+  flex:1;
+  min-width:260px;
+  background:#181a1b;
+  border-radius:12px;
+  padding:24px;
+  box-shadow:0 2px 12px #0003;
+  margin-bottom: 20px;
+}
+.puzzle-board {
+  height:180px;
+  background:#23272b;
+  border-radius:8px;
+  margin-bottom:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.popup-panel {
+  display:none;
+  position:fixed;
+  left:50%;
+  top:40%;
+  transform:translate(-50%,-50%);
+  background:#23272b;
+  border:2px solid #f6c700;
+  padding:30px;
+  z-index:40;
+  border-radius:12px;
+  color:#fff;
+  min-width:320px;
+}
+.bot-choice {
+  display:flex;
+  align-items:center;
+  gap:16px;
+  margin-bottom:10px;
+}
+.bot-avatar {
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background:#fff;
+}
